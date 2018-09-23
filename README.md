@@ -1,8 +1,5 @@
 ## Data Structure Algorithms
 ###### 1st Year, 2nd Semester
-#### Shakirul Hasan Khan
-#### Reg No: 2017831034
-#### Submitted To: Quazi Ishtiaque Mahmud Rafi Sir
 
 The algorithms from Data Structures course. This Repo contains:
 
@@ -23,3 +20,9 @@ update(mainString, patternReplace, patternInsert);
 * Bubble Sort
 * Linear Search
 * Binary Search
+
+
+
+#### Shakirul Hasan Khan
+#### Reg No: 2017831034
+#### Submitted To: Quazi Ishtiaque Mahmud Rafi Sir
