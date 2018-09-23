@@ -4,7 +4,7 @@
 The algorithms from Data Structures course. This Repo contains:
 
 #### Chapter-3:
-* Insert in a String
+* [Insert in a String](Chapter-3/insert.c)
 ```c
  insert(mainString, position, Substring);
 ```
