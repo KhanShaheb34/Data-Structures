@@ -8,9 +8,9 @@ The algorithms from Data Structures course. This Repo contains:
 ```c
  insert(mainString, position, Substring);
 ```
-* Delete from a String
+* [Delete from a String](Chapter-3/delete.c)
 ```c
-delete(mainString, position, length);
+deleted(mainString, position, length);
 ```
 * Update a String
 ```c
