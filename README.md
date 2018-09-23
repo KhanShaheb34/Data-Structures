@@ -3,23 +3,28 @@
 
 The algorithms from Data Structures course. This Repo contains:
 
-* Insert in a String
+#### Chapter-3:
+***
+..* Insert in a String
 ```c
  insert(mainString, position, Substring);
 ```
-* Delete from a String
+..* Delete from a String
 ```c
 delete(mainString, position, length);
 ```
-* Update a String
+..* Update a String
 ```c
 update(mainString, patternReplace, patternInsert);
 ```
-* First Pattern Matching Algo
-* Second Pattern Matching Algo
-* Bubble Sort
-* Linear Search
-* Binary Search
+..* First Pattern Matching Algo
+..* Second Pattern Matching Algo
+
+#### Chapter-4:
+***
+..* Bubble Sort
+..* Linear Search
+..* Binary Search
 
 
 
