@@ -10,11 +10,11 @@ The algorithms from Data Structures course. This Repo contains:
 ```
 * [Delete from a String](Chapter-3/delete.c)
 ```c
-deleted(mainString, position, length);
+ deleted(mainString, position, length);
 ```
 * Update a String
 ```c
-update(mainString, patternReplace, patternInsert);
+ update(mainString, patternReplace, patternInsert);
 ```
 * First Pattern Matching Algo
 * Second Pattern Matching Algo
