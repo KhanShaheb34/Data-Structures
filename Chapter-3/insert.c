@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-void insert(char *str, int pos, char *subStr){
+void Insert(char *str, int pos, char *subStr){
     int subStrLen=0, strLen=0, i;
     while(str[strLen]!='\0') strLen++;
     while(subStr[subStrLen]!='\0') subStrLen++;
@@ -11,7 +11,7 @@ void insert(char *str, int pos, char *subStr){
 int main(){
     char str[100]="Amar Shobar Bangla, Ami  Valobashi!", subStr[100]="Tomay";
     int pos=24;
-    insert(str, pos, subStr);
+    Insert(str, pos, subStr);
     printf("%s\n", str);
     return 0;
 }
