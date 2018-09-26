@@ -12,7 +12,7 @@ The algorithms from Data Structures course. This Repo contains:
 ```c
  Delete(mainString, position, length);
 ```
-* Update a String
+* [Update a String](Chapter-3/update.c)
 ```c
  Update(mainString, patternReplace, patternInsert);
 ```
