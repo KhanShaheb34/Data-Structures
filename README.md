@@ -6,17 +6,20 @@ The algorithms from Data Structures course. This Repo contains:
 #### Chapter-3:
 * [Insert in a String](Chapter-3/insert.c)
 ```c
- insert(mainString, position, Substring);
+ Insert(mainString, position, Substring);
 ```
 * [Delete from a String](Chapter-3/delete.c)
 ```c
- deleted(mainString, position, length);
+ Delete(mainString, position, length);
 ```
 * Update a String
 ```c
- update(mainString, patternReplace, patternInsert);
+ Update(mainString, patternReplace, patternInsert);
 ```
 * First Pattern Matching Algo
+```c
+ patternMatching1(mainString, query, posArray)
+```
 * Second Pattern Matching Algo
 ***
 #### Chapter-4:
