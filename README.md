@@ -18,9 +18,12 @@ The algorithms from Data Structures course. This Repo contains:
 ```
 * [First Pattern Matching Algo](Chapter-3/firstPatternMatchingAlgo.c)
 ```c
- patternMatching1(mainString, query, posArray)
+ patternMatching1(mainString, query, posArray);
 ```
-* Second Pattern Matching Algo
+* [Second Pattern Matching Algo](Chapter-3/secondPatternMatching.c)
+```c
+ patternMatching2(query, mainString);
+```
 ***
 #### Chapter-4:
 * Bubble Sort
