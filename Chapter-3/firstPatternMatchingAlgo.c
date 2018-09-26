@@ -31,6 +31,6 @@ int main(){
     for(i=0; i<100; i++) pos[i]=0;
     i=0;
     patternMatching1(str, queryString, pos);
-    while(pos[i]!=0) printf("%d\t",pos[i]), i++;
+    while(pos[i]!=0) printf("%d\t",pos[i]-1), i++;
     return 0;
 }
