@@ -16,7 +16,7 @@ The algorithms from Data Structures course. This Repo contains:
 ```c
  Update(mainString, patternReplace, patternInsert);
 ```
-* First Pattern Matching Algo
+* [First Pattern Matching Algo](Chapter-3/firstPatternMatchingAlgo.c)
 ```c
  patternMatching1(mainString, query, posArray)
 ```
