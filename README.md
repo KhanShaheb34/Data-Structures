@@ -26,9 +26,18 @@ The algorithms from Data Structures course. This Repo contains:
 ```
 ***
 #### Chapter-4:
-* Bubble Sort
-* Linear Search
-* Binary Search
+* [Bubble Sort](Chapter-4/bubbleSort.c)
+```c
+ bublleSort(array, size);
+```
+* [Linear Search](Chapter-4/linearSearch.c)
+```c
+ linearSearch(array, query, size);
+```
+* [Binary Search](Chapter-4/binarySearch.c)
+```c
+ binarySearch(array, start, end, query);
+```
 ***
 
 
