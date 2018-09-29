@@ -1,7 +1,7 @@
 ## Data Structure Algorithms
 ###### 1st Year, 2nd Semester
 
-The algorithms from Data Structures course. This Repo contains:
+The algorithms from Data Structures course. This Repository contains:
 
 #### Chapter-3:
 * [Insert in a String](Chapter-3/insert.c)
