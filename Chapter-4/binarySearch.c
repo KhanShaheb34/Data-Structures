@@ -1,24 +1,21 @@
-#include <stdio.h>
+#include<bits/stdc++.h>
+using namespace std;
 
-int binarySearch(int arr[], int start, int end, int x)
-{
-    if (end >= start)
-    {
-        int mid = start + (end - start)/2;
-        if (arr[mid] == x) return mid;
-
-        if (arr[mid] > x) return binarySearch(arr, start, mid-1, x);
-
-        return binarySearch(arr, mid+1, end, x);
-    }
-
-    return -1;
+int binarySearch(int nums[], int start, int end, int query){
+	if(end>1){
+		int mid = (start + end) / 2;
+		if(nums[mid]==query) return mid;
+		else if(nums[mid]>query) binarySearch(nums, start, mid-1, query);
+		else binarySearch(nums, mid+1, end, query);
+	}
+	else return -1;
 }
 
-int main(int argc, char const *argv[])
-{
-	int arr[] = {3,7,9,34,76,231,876,1000,3456,34543}, query=100;
-	int pos = binarySearch(arr, 0, 10, query);
-	printf("%d\n", pos);
-	return 0;
+int main(){
+	int nums[5], query;
+	for(int i=0; i<5; i++) cin>>nums[i];
+	cin>>query;
+	int pos = binarySearch(nums, 0, 4, query);
+	if(pos!=-1) cout<<pos<<endl;
+	else cout<<"Not found";
 }
