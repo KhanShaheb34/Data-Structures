@@ -1,5 +1,3 @@
-package BinarySearchTree;
-
 class Node {
     float value;
     Node left;
